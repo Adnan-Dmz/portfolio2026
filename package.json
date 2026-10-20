@@ -1,11 +1,21 @@
 {
   "name": "my-app2026-vite",
-  "private": true,
+  "homepage": "https://Adnan-dmz.github.io/portfolio2026/",
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/Adnan-Dmz/portfolio2026.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
