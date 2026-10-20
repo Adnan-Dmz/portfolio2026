@@ -1,0 +1,18 @@
+.app-light {
+  background-image: url(./icon/backgroundlight.png);
+}
+
+.app-dark {
+  background-image: url(./icon/backgrounddark.png);
+}
+
+.app {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
