@@ -20,7 +20,7 @@ function AppContent() {
   const { isLight, isPersian } = useContext(StyleContext)
   return (
     <div className={` app ${isLight ? "app-light" : "app-dark"} ${isPersian ? "apppersian" : "appenglish"}`}>
-      <BrowserRouter basename="/portfolio2026">
+      <BrowserRouter basename="/portfolio2026/">
         <Nav/>
         <Routes>
           <Route path="/" element={<Home/>} />

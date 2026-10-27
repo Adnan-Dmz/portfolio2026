@@ -1,13 +1,10 @@
 {
-  "name": "my-app2026-vite",
-  "homepage": "https://Adnan-dmz.github.io/portfolio2026/",
+  "name": "my-portfilio",
   "version": "0.0.0",
   "private": true,
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  
   "repository": {
-    "type": "git",
-    "url": "git remote add origin https://github.com/Adnan-Dmz/portfolio2026.git"
+    "type": "git"
   },
   "license": "ISC",
   "author": "",
@@ -26,6 +23,9 @@
     "@fontsource/chakra-petch": "^5.3.0",
     "@fontsource/vazirmatn": "^5.3.0",
     "@fortawesome/fontawesome-free": "^7.3.1",
+    "@fortawesome/free-brands-svg-icons": "^7.3.1",
+    "@fortawesome/free-solid-svg-icons": "^7.3.1",
+    "@fortawesome/react-fontawesome": "^3.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.4"

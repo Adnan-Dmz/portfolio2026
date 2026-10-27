@@ -1,19 +1,15 @@
 import { useEffect, useState } from "react";
 const useStyle=()=>{
-    const [isLight,setLight]=useState(false)
-    const [isPersian,setLanguage]=useState(true)
-    useEffect(()=>{
-    const datalight=localStorage.getItem("change_light")
-    if(datalight){
-        setLight(JSON.parse(datalight))
-    }
-    },[])
-    useEffect(()=>{
-const datapersian=localStorage.getItem("save_language")
-    if(datapersian){
-      setLanguage(JSON.parse(datapersian))
-    }
-    },[])
+    const [isLight,setLight]=useState(()=>{
+      const datalight=localStorage.getItem("change_light");
+      return datalight!==null ?  JSON.parse(datalight):false
+    })
+
+    const [isPersian,setLanguage]=useState(()=>{
+      const datapersian=localStorage.getItem("save_language");
+      return  datapersian!==null? JSON.parse(datapersian) :true
+    })
+    
    useEffect(()=>{
        localStorage.setItem("change_light",JSON.stringify(isLight))  
     },[isLight]) 
