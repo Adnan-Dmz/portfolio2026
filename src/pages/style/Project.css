@@ -62,7 +62,7 @@
     gap: 5px;
 }
 .btn-livedemo{
- width: 115px;
+ width: 120px;
  display: flex;
  height: 30px;
  justify-content: center;
@@ -179,7 +179,7 @@ color: #171717;
        margin-top: 8px;
     }
     .btn-livedemo,.btn-githun{
-        width: 120px;
+        width: 125px;
         margin-top: 5px;
     }
     .div-project{
